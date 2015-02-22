@@ -1,0 +1,47 @@
+*{
+	margin: 0 auto;
+	padding: 0px;
+}
+body{
+}
+#wraper{
+	background:url("../img/SoftUniBckg.png");
+	margin: 0 auto;
+	width: 1024px;
+	height: 575px;
+	background-size: 1024px 575px;
+}
+.tags{
+	font-size: 32px;
+	color: #f3be60;
+}
+.heading{
+	padding: 25px; 
+	font-family: Calibri;
+	margin-top: 0;
+	color: #f3be60;
+}
+.content{
+	font-family: Consolas;
+	font-size: 20px;
+	color: #fbeec9;
+}
+.allHeadings{
+	font-family: Calibri;
+	font-size: 32px;
+	color: #ffffff;
+}
+.Box{
+	margin-left: 30px;
+	margin-top: 10px;
+	margin-bottom: 10px;
+	margin-right: 100px;
+	padding: 5px;
+	background: #20201e;
+	border: 1px solid;
+	border-color: white;
+}
+ul{
+	padding-left: 45px;
+	padding-top: 30px;
+}

@@ -1,0 +1,224 @@
+body{
+	background-color: grey;
+}
+@font-face{
+	font-family: pamelaHover;
+	src:url(../fonts/PamelawantaBiketoRide.ttf);
+}
+@font-face{
+	font-family: pamela;
+	src:url(../fonts/PamelawantstoRide.ttf);
+}
+#wrapper{
+	margin: 10px auto;
+	width: 960px;
+	background-color: #DDD;
+}
+.logo{
+	float: left;
+	width: 300px;
+	height: 50px;
+	margin: 10px;
+}
+#wrapper > header > nav > ul > li{
+	float: right;
+	font-size: 26px;
+	margin: 20px;
+	margin-right: 50px;
+	font-family: pamela;
+	display: inline-block;
+}
+#wrapper > header > nav > ul > li >a {
+	text-decoration: none;
+	color: red;
+}
+#wrapper > header > nav > ul > li >a:hover{
+	font-family: pamelaHover;
+}
+
+
+/*-------------Main Start-------------*/
+.right{
+	width: 44%;
+	float: right;
+	background-color:#DDD;
+	height: 458px;
+}
+.left{
+	float: left;
+	width: 56%;
+	background-color: #DDD;
+	height: 458px;
+}
+/*------------Table Start*/
+table,tr,td,th{
+	border: 2px blue;
+	text-align: center;
+}
+td,th{
+	width: 100px;
+	height: 50px;
+}
+.approve{
+	width: 150px;
+}
+th{
+	background-color: orange;
+}
+table{
+	background-color: yellow;
+	width: 500px;
+}
+.nested{
+	width: 150px;
+}
+.choice, .choiceN{
+	border: 4px blue solid;
+}
+.choice:hover{
+	background-color: green;
+}
+.choiceN:hover{
+	background-color: red;
+}
+a{
+	text-decoration: none;
+}
+/*-------Table End------------*/
+/*-------------Form Start--------*/
+#wrapper > main > div.right > form > fieldset > input{
+	border-radius: 10px;
+}
+#wrapper > main > div.right > form > fieldset:nth-child(4) > input[type="submit"]:nth-child(2){
+	width: 49%;
+	border-bottom-right-radius: 0px;
+	border-top-right-radius: 0px;
+	height: 50px;
+	background-color: green;
+}
+#wrapper > main > div.right > form > fieldset:nth-child(4) > input[type="reset"]:nth-child(3){
+	width: 49%;
+	border-bottom-left-radius: 0px;
+	border-top-left-radius: 0px;
+	height: 50px;
+	background-color: red;
+}
+input{
+	height: 25px;
+}
+input:invalid{
+	border: 1px red solid;
+}
+/*------------Form End-------------*/
+.images{
+	margin-left: 6%;
+	margin-top: 4%;
+}
+.pumba{
+	margin: 4px;
+	height: 120px;
+	width: 150px;
+}
+.kfc{
+	height: 170px;
+	width: 150px;
+}
+.titanic{
+	height: 140px;
+	width: 150px;
+}
+
+
+/*-------------Main End-------------*/
+
+
+
+
+/*-------------Footer Start-------------*/
+p{
+	padding-left: 10px;
+	line-height: 30px;
+	width: 500px;
+}
+header{
+	height: 100px;
+}
+footer{
+	width: 100%;
+	float: left;
+	background:#DDD;
+}
+.social{
+	float: right;
+	width: 228px;
+	height: 76px;
+}
+.fb,.twitter,.vimeo{
+	background-image: url("../images/sprites.png");
+	width: 75px;
+	height: 75px;
+	float: right;
+}
+.fb{
+	background-position: -75px 0px;
+}
+.vimeo{
+	background-position: -227px 0px;
+}
+.fb:hover{
+	background-position: -75px -77px; 
+}
+.vimeo:hover{
+	background-position: -227px -229px; 
+}
+.twitter:hover{
+	background-position: 0px -154px; 
+}
+/*Footer End*/
+/* ------------ FOOTER ------------ */
+
+#wrapper > footer > ul > li {
+	display: inline-block;
+	padding: 10px;
+	margin-right: 70px;
+}
+
+#wrapper > footer > ul > li.width {
+	width: 50%;
+}
+
+.fb, .vimeo, .twitter {
+  background-image: url('../images/sprites.png');
+  background-repeat: no-repeat;
+  height: 75px;
+  width: 75px;
+  border-radius: 100px;
+}
+
+.fb {
+  	background-position: -76px 1px;
+}
+
+.vimeo {
+  	background-position: -227px 1px;
+}
+
+.twitter {
+  	background-position: 1px 1px;
+}
+
+.fb:hover {
+  	background-position: -76px -153px;
+}
+
+.vimeo:hover {
+  	background-position: -227px -229px;
+}
+
+.twitter:hover {
+  	background-position: 1px -76px;
+}
+ul{
+	list-style: none;
+}
+/* ------------ END FOOTER ------------ */

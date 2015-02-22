@@ -1,0 +1,81 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+.header {
+	margin: 0 auto;
+	margin-top: 1px;
+	height: 106px;
+	width: 1200px;
+	background-color: #234465;
+}
+
+.container1 {
+	margin-top: 10px;
+	float: right;
+	height: 30%;
+	width: 29%;
+	margin-bottom: 10px;
+}
+
+.container2 {
+	float: right;
+	margin-top: 10px;
+	width: 58%;
+}
+
+.sitelogo {
+	margin: 20px 80px;
+	float: left;
+	height: 65px;
+	width: 265px;
+}
+
+.arrow-down {
+	margin: 7px 3px;
+	float: right;
+	width: 0; 
+	height: 0; 
+	border-left: 5px solid transparent;
+	border-right: 5px solid transparent;
+	border-top: 5px solid #fff;
+}
+
+li {
+	display: inline-block;
+	margin: 4px;
+	text-transform: uppercase;
+	font-weight: bold;
+	font-size: 16px;
+	font-family: Calibri;
+	color: white;
+}
+
+input {
+	width: 85%;
+	height: 32px;
+}
+
+a {
+	color: white;
+	text-decoration: none;
+}
+
+.imageInputWrapper { 
+	border:solid 1px #fff;  
+	background-color: white;
+	border-radius: 15px;
+}
+
+input {
+	border: none;
+	margin-top: 3px;
+	border-radius: 15px;
+}
+
+.notifimage {
+	padding: 3px;
+	height: 15px;
+	width: 15px;
+}

@@ -1,0 +1,36 @@
+*{
+	margin: 0 auto;
+	padding: 0;
+}
+body{
+	background-color: skyblue;
+}
+hr{
+	width: 98%;
+	color: lightgrey;
+	height: 2px;
+	border-radius: 2px;
+}
+p.info{
+	font-weight: bold;
+}
+img{
+	margin: 3px;
+	border: 1px solid;
+	height: 100px;
+	width: 100px;
+}
+ul{
+	padding: 30px;
+}
+li{
+	padding: 3px;
+}
+h2{
+	padding-left: 10px;
+	padding-bottom: 20px;
+	padding-top: 20px;
+}
+p.text{
+	margin:10px;
+}
