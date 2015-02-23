@@ -1,0 +1,69 @@
+*{
+	padding: 0;
+	margin: 0;
+}
+#wrapper{
+	position: absolute;
+	border-width: 10px;
+	border-style:dotted solid double dashed;
+	border-color: yellow green blue red;
+	margin: 40px;
+	width: 40%;
+	box-shadow: 10px 10px 5px #888888;
+}
+h2{
+	margin: 20px;
+	text-align: center;
+	text-shadow: grey 0.3em 0.3em 0.3em
+}
+.circuit{
+	margin: 0 auto;
+	text-align: center;
+	border: 2px solid red;
+	width: 70%;
+	border-radius: 30px;
+}
+input{
+	margin-bottom: 5px;
+	text-align: center;
+	border-color: orange;
+	background-color:orange;
+}
+p{
+	font-size: 24px;
+	text-shadow: grey 0.3em 0.3em 0.4em;
+	margin: 10px;
+}
+.circle{
+	position: absolute;
+	top: 98px;
+	right: 99px;
+	height: 20px;
+	width: 20px;
+	border-radius: 100%;
+	background-color: grey;
+	opacity: 0.8;
+}
+.circle1{
+	position: absolute;
+	top: 57px;
+	right: 64px;
+	height: 40px;
+	width: 40px;
+	border-radius: 100%;
+	background-color: grey;
+	opacity: 0.8;
+}
+.circle2{
+	position: absolute;
+	top: 8px;
+	left: 511px;
+	height: 50px;
+	width: 80px;
+	border-radius: 30px;
+	background-color: grey;
+	opacity: 0.8;
+	text-align: center;
+	line-height: 45px;
+	color: white;
+}
