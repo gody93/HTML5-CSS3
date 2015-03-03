@@ -1,0 +1,103 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+#wrapper{
+	width: 500px;
+	background-image: url("../img/formBackground.jpg");
+}
+form{
+	position: absolute;
+	top: 620px;
+	left: 39px;
+}
+h2{
+	font-family: Calibri;
+	color: white;
+	margin-left: 25px;
+}
+input{
+	border-radius: 10px;
+	height: 25px;
+	width: 250px;
+	margin-left: 70px;
+}
+textarea{
+	width: 250px;
+	height: 90px;
+	margin-left: 70px;
+}
+.area{
+	vertical-align:top;
+	top: 310px;
+	left: 39px;
+}
+.field{
+	height: 40px;
+	border-radius: 10px;
+	opacity: 0.2;
+	background-color: grey;
+	margin: 25px;
+	border: 1px solid white;
+}
+.Phone{
+	top: 192px;
+	left: 39px;
+}
+.Name{
+	top: 59px;
+	left: 39px;
+}
+.Email{
+	top: 125px;
+	left: 39px;
+}
+.Adress{
+	height: 100px;
+}
+.Code{
+	top: 439px;
+	left: 39px;
+}
+.Country{
+	top: 505px;
+	left: 39px;
+}
+input[type=radio]{
+	width: 20px;
+	margin-left: 20px;
+}
+.Card{
+	top: 711px;
+}
+.SCode{
+	top: 776px;
+}
+.NameCard{
+	top: 846px;
+}
+.fieldC{
+	height: 60px;
+	border-radius: 10px;
+	opacity: 0.2;
+	background-color: grey;
+	margin: 25px;
+	border: 1px solid white;
+}
+input[type=submit]{
+	margin-left: 37%;
+	width: 100px;
+	border-radius: 10px;
+	background-color:rgb(3, 15, 44);
+	color: White;
+}
+#address > form.Code > input[type="text"]{
+	margin-left: 58px;
+}
+img{
+	height: 30px;
+	width: 35px;
+}
+input:active, textarea:active{
+	background-color: grey;
+}

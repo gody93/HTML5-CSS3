@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Header</title>
+	<link href="css/Problem04.css" rel="stylesheet">
+	<script type="text/javascript" src="js/jquery-1.2.6.min.js"></script>
+    <script type="text/javascript">
+        $(document).ready(function() {
+            $(".inputWithImge").each(function(){
+                $(this).add($(this).next()).wrapAll('<div class="imageInputWrapper"></div>');
+            }); 
+        });
+    </script>
+</head>
+<body>
+<div class="header">
+	<a href=""><img class="sitelogo" src="img/logo.png"></a>
+	<div class="container1">
+	<ul class="menu1">
+		<li><a href="#">0</a><img class="notifimage" src="img/notif.png"></li>
+		<li><a href="#">user</a><div class="arrow-down"></div></li>
+		<li><form><input id="sampleForm" class="inputWithImge" type="search" name=""><a href="#"><img class"buttonImage" src="img/search.png"></a></form></li>
+	</ul>
+	</div>
+<div class="container2">
+	<ul class="menu2">
+		<li><a href="#">news</a></li>
+		<li>
+			<a href="#">about the university</a>
+			<ul>
+				<li>
+					<a href="#">about the university</a>
+					<ul>
+						<li><a href="#">Pesho</a></li>
+						<li><a href="#">Pesho</a></li>
+						<li><a href="#">Pesho</a></li>
+					</ul>
+				</li>
+				<li><a href="#">about the university</a></li>
+				<li><a href="#">about the university</a></li>
+			</ul>
+		</li>
+		<li>
+			<a href="#">training coureses</a>
+			<ul>
+				<li><a href="#">about the university</a></li>
+				<li><a href="#">about the university</a></li>
+				<li><a href="#">about the university</a></li>
+			</ul>
+		</li>
+		<li><a href="#">for companies</a></li>
+		<li><a href="#">forum</a></li>
+		<li><a href="#">contacts</a></li>
+	</ul>
+</div>
+</div>
+</body>
+</html>

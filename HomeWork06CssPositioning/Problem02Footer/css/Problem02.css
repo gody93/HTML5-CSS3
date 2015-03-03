@@ -1,0 +1,88 @@
+*{
+	padding: 0;
+	margin: 0 auto;
+}
+#wrapper{
+	position: relative;
+	width: 100%;
+	height: 300px;
+	background-color: #234465;
+}
+section{
+	margin: 10px;
+	height: 200px;
+	width: 250px;
+	float: left;
+	position: relative;
+	display: block;
+	text-align: left;
+}
+#first{
+	width: 150px;
+}
+button{
+	background-color: #234465;
+	width: 100%;
+	height: 40px;
+	margin-top: 20px;
+	border: 1px solid #FF9C00;
+	color: white;
+	outline: none;
+	font-size: 16px;
+	font-family: Calibri;
+}
+button:hover{
+	background-color: #FF9C00;
+	transition: 1s;
+}
+h2{
+	font-family: Calibri;
+	font-weight: bold;
+	font-size: 18px;
+	text-transform: uppercase;
+	color: #FF9C00;
+}
+ul{
+	color: white;
+	margin-top: 10px;
+	list-style: none;
+	text-align: left;
+}
+a{
+	color: white;
+	text-decoration: none;
+}
+a:hover{
+	color:#FF9C00;
+	transition: 0.5s;
+}
+#twitter{
+	border: 1px solid white;
+	margin: 5px;
+	display: inline-block;
+	height: 18px;
+	width: 18px;
+	background-position: -82px -1px;
+	background-image: url("../img/socialicons.png");
+}
+#facebook{
+	border: 1px solid white;
+	margin: 5px;
+	display: inline-block;
+	height: 18px;
+	width: 18px;
+	background-position: -1px -2px;
+	background-image: url("../img/socialicons.png");
+}
+#g{
+	border: 1px solid white;
+	margin: 5px;
+	display: inline-block;
+	height: 18px;
+	width: 18px;
+	background-position: 0px -109px;
+	background-image: url("../img/socialicons.png");
+}
+#fourth > ul > li:nth-child(2){
+	margin-top: 20px;
+}
