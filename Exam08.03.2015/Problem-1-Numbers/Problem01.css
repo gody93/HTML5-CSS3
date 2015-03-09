@@ -1,0 +1,68 @@
+*{
+	margin: 0px;
+	padding: 0px;
+}
+body{
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+}
+#wrapper{
+	width: 800px;
+	margin: 0 auto;
+}
+header{
+	margin: 10px 0px;
+	text-align: center;
+	width: 100%;
+	background-color: rgb(221,221,221);
+	border-radius: 10px;
+	color: rgb(147,115,224);
+	height: 70px;
+	line-height: 70px;
+}
+header h1{
+	text-shadow: 1px 1px 0px white;
+}
+section {
+	margin: 10px;
+	display: inline-block;
+	border-radius: 10px;
+	width: 22%;
+	background-color: rgb(238,238,238);
+}
+section div{
+	margin: 10px auto;
+	height: 135px;
+	width: 135px;
+	font-size: 70px;
+	line-height: 135px;
+	text-align: center;
+	border-radius: 50%;
+	color: white;
+	background-color: rgb(148,112,220);
+}
+section p{
+	text-align: center;
+	color: rgb(166,173,171);
+}
+section button{
+	border-radius: 10px;
+	border: none;
+	background-color: rgb(221,221,221);
+	color: rgb(138,130,134);
+	margin: 10px auto;
+	display: block;
+	height: 40px;
+	width: 80%;
+	outline: none;
+	font-size: 10px;
+}
+section div:hover{
+	background-color: white;
+	color: rgb(148,112,220);
+	cursor: pointer;
+}
+section button:hover{
+	background-color: white;
+	cursor: pointer;
+}
