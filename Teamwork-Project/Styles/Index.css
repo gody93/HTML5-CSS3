@@ -1,0 +1,131 @@
+@import "Normalize.css";
+
+header {
+    width: 100%;
+    color: white;
+    background-color: #ffc;
+    overflow: hidden;
+    border-bottom: 2px solid #888;
+    margin-bottom: 10px;
+    position: fixed;
+    vertical-align: top;
+}
+
+
+header .header-content {
+    width: 80%;
+    height: 150px;
+    margin: 0 auto;
+    overflow: hidden;
+}
+
+.logo-wrapper {
+    width: 20%;
+    height: auto;
+    float: left;
+    margin: 10px;
+/*    padding-left: 10%;*/
+}
+
+#sonic {
+    height: 100px;
+    float: left;
+    padding: 10px 0 0 1%;
+    display: none;
+}
+
+.header-content:hover #sonic {
+    display: inline-block;
+}
+
+nav {
+    margin-top: 10px;
+    border-top: 2px solid #3aa4dc;
+    float: right;
+    -webkit-align-self: flex-end;
+/*    -ms-flex-item-align: end;*/
+    font-size: 1.5rem;
+}
+
+nav ul {
+    list-style-type: none;
+    overflow: hidden;
+    padding: 0;
+    margin: 0;
+}
+
+#home {
+    background-color: #a75f4a;
+}
+#gallery {
+    background-color: #b0cb1f;
+}
+#profiles {
+    background-color: #f08143;
+}
+#about {
+    background-color: #ea556f;
+}
+
+nav ul li.menu {
+    float: left;
+    border-bottom: 2px solid #3aa4dc;
+    -webkit-transition: 0.6s;
+    transition: 0.6s;
+    position: relative;
+    background-color: #999;
+    width: 100px;
+    height: 100px;
+    text-align: center;
+}
+
+li.menu:hover {
+    height: 120px;
+}
+
+
+nav ul li.menu a {
+    padding: 5px;
+    text-decoration: none;
+    font-size: 0.8em;
+    width: 30px;
+    color:#fff;
+    box-shadow: 0 50px 0 15px rgba(255, 255, 255, 0);
+    -webkit-transition: box-shadow 0.4s;
+    transition: box-shadow 0.4s;
+}
+
+nav ul li.menu:hover a{
+    box-shadow: 0 0 0 0 rgba(255, 255, 255, 0.6);
+}
+
+main {
+    min-height: 400px;
+    background-color: white;
+    border: 1px solid red;
+}
+
+iframe {
+    width: 80%;
+
+    border: none;
+
+    padding: 0px;
+    margin: 140px 10% 0px 10%;
+    
+    -webkit-align-self: center;
+    -ms-flex-item-align: center;
+    align-self: center;
+    -o-object-fit: fill;
+    object-fit: fill;
+}
+
+footer {
+    width: 100%;
+    height: 150px;
+    border: 2px solid #888;
+    background-color: #ffc;
+    position:fixed;
+    bottom:0px;
+}
+

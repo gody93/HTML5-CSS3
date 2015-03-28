@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<!--[if lt IE 7 ]><html class="ie ie6" lang="en"> <![endif]-->
+<!--[if IE 7 ]><html class="ie ie7" lang="en"> <![endif]-->
+<!--[if IE 8 ]><html class="ie ie8" lang="en"> <![endif]-->
+<!--[if (gte IE 9)|!(IE)]><!-->
+<html lang="en">
+<!--<![endif]-->
+
+<head>
+
+    <!-- Basic Page Needs
+  ================================================== -->
+    <meta charset="utf-8">
+    <title>About | GameUNI</title>
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <!-- Mobile Specific Metas
+  ================================================== -->
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+
+
+                <!--========== Scripts ========= -->
+        <script type="text/javascript" src="Scripts/About/jquery.js"></script>
+        <script type="text/javascript" src="Scripts/About/test.js"></script>
+        <script type="text/javascript" src="Scripts/About/picture.js"></script>
+        <script type="text/javascript" src="Scripts/About/unfold.js"></script>
+
+
+    <!-- CSS
+  ================================================== -->
+    <link rel="stylesheet" href="Styles/base.css">
+    <link rel="stylesheet" href="Styles/skeleton.css">
+    <link rel="stylesheet" href="Styles/headerandfooter.css">
+    <link rel="stylesheet" href="Styles/About.css">	
+
+    <!--[if lt IE 9]>
+		<script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+	<![endif]-->
+
+    <!-- Favicons
+	================================================== -->
+    <link rel="shortcut icon" href="images/favicon.ico">
+    <link rel="apple-touch-icon" href="images/apple-touch-icon.png">
+    <link rel="apple-touch-icon" sizes="72x72" href="images/apple-touch-icon-72x72.png">
+    <link rel="apple-touch-icon" sizes="114x114" href="images/apple-touch-icon-114x114.png">
+
+</head>
+
+<body>
+
+
+
+    <!-- Primary Page Layout
+	================================================== -->
+
+    <!-- Delete everything in this .container and get started on your own site! -->
+
+    <div class="container">
+        <header class="sixteen columns header-content">
+            <div class="sixteen columns header-logo">
+                <img src="Images/game_logo.png" alt="Sorry" class="three columns" />
+                <nav>
+                    <ul>
+                        <li id="home" class="menu two columns">
+                            <a href="index.html">home</a>
+                        </li>
+                        <li id="gallery" class="menu two columns">
+                            <a href="Gallery.html">gallery</a>
+                        </li>
+                        <li id="profiles" class="menu two columns">
+                            <a href="Profiles.html">profiles</a>
+                        </li>
+                        <li id="about" class="menu two columns">
+                            <a href="About.html">about</a>
+                        </li>
+                    </ul>
+                </nav>
+            </div>
+            <a href="#top-header">
+                <img src="Images/mario_top.gif" alt="" id="to-top" />
+            </a>
+        </header>
+
+        <main class="sixteen columns">
+            <article class="profile sixteen columns">
+            <h1>A wild team appeared!!</h1>
+                <div class="console">
+                    <button onclick="profile('Vasil');" class="picb"></button>
+                    <button onclick="showText('#msg', 'Играя LoL и скривам топката на Боги.  P.S- БОГИ, ГЛЕДАЙ СИ РАБОТАТА С ТИЯ НАЗЪБЕНИ МАТРИЦИ!!!', 0, 100);" class="textb"></button>
+                </div>
+                <section class="info">
+                    <img src="Images/About/frame.png" alt="Sorry" class="frame">
+                    <div id="msg"></div>
+                </section>
+            </article>
+            <article class="profile sixteen columns">
+                <div class="console">
+                <button onclick="profile1('nikolay');" class="picb"></button>
+                <button onclick="showText('.msg', 'Любимата ми игра е Super Granny. С нетърпение очаквам да свърши тази презентация за да й се отдам напълно!', 0, 100);" class="textb"></button>
+                </div>
+                <section class="info">
+                    <img src="Images/About/frame.png" alt="Sorry" class="frame">
+                    <div class="msg"></div>
+                </section>
+            </article>
+            <article class="profile sixteen columns">
+                <div class="console">
+                <button onclick="profile2('Moni');" class="picb"></button>
+                <button onclick="showText('.msg1', 'Lorem ipsum dolor sit amet ... от толкова много запълващ текст започнах да понаучавам латинския! ', 0, 100);" class="textb"></button>
+                </div>
+                <section class="info">
+                    <img src="Images/About/frame.png" alt="Sorry" class="frame">
+                    <div class="msg1"></div>
+                </section>
+            </article>
+            <article class="profile sixteen columns">
+                <div class="console">
+                <button onclick="profile3('Dani');" class="picb"></button>
+                <button onclick="showText('.msg2', 'Любимата игра на Дани, от малък, е криеница! Той е станал толкова добър, че все още се чудим къде е!', 0, 100);" class="textb"></button>
+                </div>
+                <section class="info">
+                    <img src="Images/About/frame.png" alt="Sorry" class="frame">
+                    <div class="msg2"></div>
+                </section>
+            </article>
+
+
+            <!-- ======= Contact Form ====== -->
+            <div class="entry">
+                    <a href="#expand">Contact us</a>
+                    <div class="description">
+                        <div>
+                            <div>
+                                <input type="text" placeholder="Enter your name " required>
+                            </div>
+                            <div>
+                                <input type="email" placeholder="Enter your e-mail " required>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <textarea placeholder="Enter message"></textarea>
+                        </div>
+                        <button type="submit" class="submit">Send</button>
+                    </div>
+            </div>
+        </main>
+    </div>
+    <!-- container -->
+    <footer class=" footer sixteen columns">
+            <div>
+                <a href="http://softuni.bg"><img src="Images/footerSoftUniLogo.png" alt="sorry" title="Go to softuni.bg"/></a>
+            </div>
+    </footer>
+    <!-- End Document
+================================================== -->
+</body>
+
+</html>

@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+
+    <meta charset="UTF-8">
+    <title></title>
+    <link rel="stylesheet" href="Styles/Gallery.css"/>
+    <link rel="stylesheet" href="Styles/base.css">
+    <link rel="stylesheet" href="Styles/skeleton.css">
+    <link rel="stylesheet" href="Styles/layout.css">
+    <link rel="stylesheet" href="Styles/headerandfooter.css">
+    <script src="Scripts/Gallery.js"></script>
+</head>
+<body>
+<div class="container">
+        <header class="sixteen columns header-content" id="header">
+            <div class="sixteen columns header-logo">
+                <a href="http://softuni.bg"><img src="Images/game_logo.png" alt="Sorry" class="three columns" title="Go to softuni.bg"/></a>
+                <nav>
+                    <ul>
+                        <li id="home" class="menu two columns">
+                            <a href="index.html">home</a>
+                        </li>
+                        <li id="gallery" class="menu two columns">
+                            <a href="Gallery.html">gallery</a>
+                        </li>
+                        <li id="profiles" class="menu two columns">
+                            <a href="Profiles.html">profiles</a>
+                        </li>
+                        <li id="about" class="menu two columns">
+                            <a href="About.html">about</a>
+                        </li>
+                    </ul>
+                </nav>
+            </div>
+            <a href="#top-header">
+                <img src="Images/mario_top.gif" alt="" id="to-top" />
+            </a>
+        </header>
+    <main class="content">
+        <div>
+            <div class="controls">
+                <img src="Images/Gallery/left-arrow.png" class="arrow-control" onclick="loadPreviousImage()"/>
+                <strong>GAME UNI</strong>
+                <img src="Images/Gallery/right-arrow.png" class="arrow-control" onclick="loadNextImage()"/>
+            </div>
+            <div class="gallery-body">
+                <div class="aside-images">
+                    <img src="Images/GalleryDB/11.jpg" id="left-image"/>
+                </div>
+                <div class="current-image">
+                    <img src="Images/GalleryDB/1.jpg" id="current-image"/>
+                </div>
+                <div class="aside-images">
+                    <img src="Images/GalleryDB/2.jpg" id="right-image"/>
+                </div>
+            </div>
+        </div>
+        <footer>
+            <div>
+                <a href="http://softuni.bg"><img src="Images/footerSoftUniLogo.png" alt="sorry" title="Go to softuni.bg"/></a>
+            </div>
+        </footer>
+    </main>
+</div>
+</body>
+</html>

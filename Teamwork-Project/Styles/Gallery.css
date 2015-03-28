@@ -1,0 +1,98 @@
+@import "Normalize.css";
+@font-face {
+    font-family: halo;
+    src: url('../Fonts/yoster.ttf');
+}
+
+body {
+    margin: 0;
+    padding: 0;
+
+    font-family: Pokemon;
+}
+
+main {
+    width: 80%;
+    margin: 0 auto;
+    background-color: #ffc;
+
+    background-image: url("../Images/background.png");
+}
+
+
+#header {
+    width: 100%;
+    margin-left: 0;
+}
+
+.controls{
+    width: 100%;
+    margin-top: 30px;
+    font-size: 48px;
+    text-align: center;
+    display: inline-block;
+    font-family: halo, sans-serif;
+
+}
+
+.content {
+    min-height: 500px;
+    max-height: 1500px;
+    width: 100%;
+}
+
+.arrow-control {
+    width: 10%;
+    height: 10%;
+    min-width: 50px;
+    min-height: 50px;
+    max-width: 150px;
+    max-height: 150px;
+}
+
+.arrow-control:first-child {
+    float: left;
+}
+
+.arrow-control:last-child {
+    float: right;
+}
+
+.gallery-body {
+    width: 100%;
+}
+
+.aside-images {
+    width: 10%;
+    height: 90%;
+    margin-left: 1%;
+    margin-right: 1%;
+    float: left;
+}
+
+.aside-images img {
+    max-width: 100%;
+    max-height: 100%;
+    display: block;
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
+.current-image {
+    width: 76%;
+    height: 90%;
+    float: left;
+}
+
+.current-image img {
+    max-width: 80%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.gallery-body::after {
+    clear: both;
+    content: "";
+    display: block;
+}

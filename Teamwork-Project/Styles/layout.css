@@ -1,0 +1,217 @@
+	/* Smaller than standard 960 (devices and browsers) */
+	@media only screen and (max-width: 959px) {
+}
+
+	/* Tablet Portrait size to standard 960 (devices and browsers) */
+	@media only screen and (min-width: 768px) and (max-width: 959px) {
+        
+	.header-content .menu a {
+		font-size: .5em;
+	}
+
+        body .container .sixteen.columns.wrap {
+            margin: 0;
+        }
+        
+        .container{
+            width: 100%;
+        }
+        .wrap.sixteen.columns {
+            width: 100%;
+        }
+        .profile.sixteen.columns {
+            width: 100%;
+        }
+        
+        .header-content.sixteen.columns{
+            width: 100%;
+	    margin: 0;
+        }
+        .header-logo.sixteen.columns {
+            width: 97%;
+        }
+
+        #footer {
+            width: 100%;
+            margin: 0;
+        }
+    }
+
+
+	/* All Mobile Sizes (devices and browser) */
+	@media only screen and (max-width: 767px) {
+		
+	.header-content .menu a {
+		font-size: .5em;
+	}
+        
+        .container .header-content > .header-logo  img {
+            width: 20%;
+            margin: 2%;
+        }
+
+        .content {
+            width: 100%;
+            border: none;
+        }
+
+		.aside-images {
+			display: none;
+		}
+
+		.current-image {
+			width: 100%;
+		}
+		
+		.current-image img {
+			width: 100%;
+			max-width: 100%;
+		}
+        .profile .console {
+            clear: both;
+            width: 70%;
+            margin: 10px 15%;
+            display: inline-block;
+        }
+        
+        .profile .info {
+            margin: 10px 15%;
+            display: inline-block;
+            clear: both;
+            width: 70%;
+        }
+        
+        .header-content .menu.two.columns {
+            height: 50px;
+            width: 80px;
+        }
+        
+        .header-content .menu:hover {
+            height: 50px;
+        }
+        
+        .header-content .menu a {
+            margin-top: 5px;
+            font-size: 0.7em;
+        }
+
+        #footer {
+            width: 100%;
+            margin: 0;
+        }
+	}
+
+	/* Mobile Landscape Size to Tablet Portrait (devices and browsers) */
+	@media only screen and (min-width: 480px) and (max-width: 767px) {
+        
+        .header-content .menu a {
+		font-size: .5em;
+	}
+
+        .container .header-content > .header-logo  img {
+            width: 20%;
+            display: block;
+            margin: 2%;
+        }
+        .container{
+            width: 100%;
+        }
+        .wrap.sixteen.columns {
+            width: 100%;
+        }
+        .profile.sixteen.columns {
+            width: 100%;
+        }
+        
+        .header-content.sixteen.columns{
+            width: 100%;
+	  
+        }
+        .header-logo.sixteen.columns {
+            width: 97%;
+        }
+        
+        .profile .console {
+            width: 35%;
+            margin: 10px 32%;
+        }
+
+        #footer {
+            width: 100%;
+            margin: 0;
+        }
+    }
+
+	/* Mobile Portrait Size to Mobile Landscape Size (devices and browsers) */
+	@media only screen and (max-width: 479px) {
+    
+        strong {
+			display: none;		
+		}
+
+        nav {
+            float: none;
+            margin: 0 23%;
+            display: block;
+
+        }
+
+        .container .header-content > .header-logo nav {
+            width: 100%;
+            display: block;
+            border: none;
+            margin-left: 2%;
+            margin-right: auto;
+        }
+
+        .container .header-content > .header-logo nav ul li{
+            width: 100%;
+            display: block;
+        }
+
+        .header-content .menu a {
+            font-size: .5em;
+        }
+         .container .header-content > .header-logo  img {
+            width: 100%;
+            display: block;
+            margin: 2% auto;
+        }
+        
+        .header-content .menu.two.columns {
+            height: 50px;
+            width: 100%;
+            display: block;
+            border: none;
+        }
+        
+        .container{
+            width: 100%;
+        }
+        .wrap.sixteen.columns {
+            width: 100%;
+        }
+        .profile.sixteen.columns {
+            width: 100%;
+        }
+        
+        .header-content.sixteen.columns{
+            width: 100%;
+        }
+        .header-logo.sixteen.columns {
+            width: 100%;
+        }
+        
+        .profile .console {
+            width: 50%;
+            margin: 10px 24%;
+        }
+        .profile .info h1 {
+            background-color: rgba(255, 255, 250, 0.5);
+        }
+
+        #footer {
+            width: 100%;
+            margin: 0;
+        }
+    }

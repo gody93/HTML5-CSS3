@@ -1,0 +1,126 @@
+@font-face {
+    font-family: Pokemon;
+    src: url('../Fonts/Pokemon/Minecraftia2-webfont.eot');
+    src: url('../Fonts/Pokemon/Minecraftia2-webfont.eot?#iefix') format('embedded-opentype'),
+    url('../Fonts/Pokemon/Minecraftia2-webfont.woff2') format('woff2'),
+    url('../Fonts/Pokemon/Minecraftia2-webfont.woff') format('woff'),
+    url('../Fonts/Pokemon/Minecraftia2-webfont.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+header {
+    width: 100%;
+    color: white;
+    background-color: #ffc;
+    overflow: hidden;
+    vertical-align: top;
+    z-index: 1;
+    border-bottom: 2px solid #777;
+}
+
+header .header-content {
+    margin: 0px auto;
+    overflow: hidden;
+}
+
+header img, .logo-wrapper {
+    width: 20%;
+    height: auto;
+    float: left;
+    margin: 10px;
+}
+
+nav {
+    margin-top: 10px;
+/*    border-top: 2px solid #3aa4dc;*/
+    float: right;
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+}
+
+nav ul {
+    list-style-type: none;
+    overflow: hidden;
+    padding: 0;
+    margin: 0;
+}
+
+#home {
+    background-color: #a75f4a;
+}
+
+#gallery {
+    background-color: #b0cb1f;
+}
+
+#profiles {
+    background-color: #ff7d01;
+}
+
+#about {
+    background-color: #ea556f;
+}
+
+nav ul li.menu {
+    float: left;
+    border-bottom: 2px solid #3aa4dc;
+    -webkit-transition: 0.6s;
+    transition: 0.6s;
+    height: 100px;
+    text-align: center;
+    margin-left: 0px;
+    margin-right: 0;
+}
+
+li.menu:hover {
+    height: 80px;
+}
+
+nav ul li.menu a {
+    display: inline-block;
+    margin-top: 20px;
+    padding: 10px;
+    text-decoration: none;
+    font-size: 0.6em;
+    font-family: Pokemon;
+    color: #fff;
+    box-shadow: 0 0px 0 15px rgba(255, 255, 255, 0);
+    -webkit-transition: box-shadow 0.4s;
+    transition: box-shadow 0.4s;
+}
+
+nav ul li.menu:hover a {
+    box-shadow: 0 0 0 0 rgba(255, 255, 255, 0.6);
+}
+
+#to-top {
+    display: none;
+    position: fixed;
+    bottom: 20px;
+    left: 10px;
+}
+
+footer {
+    width: 100%;
+    height: 100px;
+    margin: 0 auto;
+    background-color: #ffc;
+    left: 0px;
+    bottom: 0px;
+}
+
+footer div {
+    width: 60px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+}
+
+footer a {
+    padding-bottom: 0;
+}
+
+footer img {
+    width: 50px;
+}
